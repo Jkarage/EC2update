@@ -1,8 +1,5 @@
-build:
-	@go build -o ./bin/amiupdate
+run:
+	go run cmd/ami/main.go
 
 test:
 	@go test -v ./...
-
-run: build
-	./bin/amiupdate
