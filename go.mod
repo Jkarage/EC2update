@@ -5,6 +5,7 @@ go 1.21.2
 require github.com/aws/aws-sdk-go v1.46.3
 
 require (
+	github.com/ardanlabs/conf/v3 v3.1.7
 	github.com/aws/aws-sdk-go-v2 v1.21.2 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.19.1 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.13.43 // indirect
