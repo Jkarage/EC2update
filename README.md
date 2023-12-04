@@ -24,18 +24,18 @@ Add your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in the environment.
 ### Installing Requirements
 
 ``` bash
-    go install github.com/jkarage/ec2update/cmd/ec2@latest
+    git clone https://github.com/Jkarage/EC2update.git
 ```
 
 #### Usage
 
 ``` bash
-    ec2updates --region eu-west-3 --instance-id i-04493d3e5d3001e32
+    go run cmd/ec2/main.go --region eu-west-3 --instance-id i-04493d3e5d3001e32
 ```
 
 Providing Custom Script file
 
 ``` bash
-   ec2updates --region eu-west-3 --instance-id i-04493d3e5d3001e32 --script a.txt
+   go run cmd/ec2/main.go --region eu-west-3 --instance-id i-04493d3e5d3001e32 --script a.txt
 
 ```
