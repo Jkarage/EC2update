@@ -2,8 +2,6 @@ module github.com/Jkarage/ec2update
 
 go 1.21.2
 
-require github.com/Jkarage/AMI-update v1.0.0
-
 require (
 	github.com/ardanlabs/conf/v3 v3.1.7
 	github.com/aws/aws-sdk-go-v2 v1.21.2
