@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	ami "github.com/Jkarage/AMI-update/internal"
+	ami "github.com/Jkarage/ec2update/internal"
 	"github.com/ardanlabs/conf/v3"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
