@@ -1,0 +1,4 @@
+touch /home/ubuntu/a.txt,
+echo 'Hello from SSM command!,thelatest' > /home/ubuntu/a.txt,
+pwd,
+ls -lah /home/ubuntu
