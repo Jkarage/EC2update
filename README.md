@@ -1,4 +1,4 @@
-# Intro
+# EC2Update
 
 A script to run remote scripts in amazon ec2 instance.
 
@@ -7,18 +7,22 @@ A script to run remote scripts in amazon ec2 instance.
 Write your scripts in internal/scripts.txt file, comma separated commands.
 Like the example below:
 
-```text
-touch /home/ubuntu/a.txt,
-echo 'Hello from SSM command!' > /home/ubuntu/a.txt,
-pwd,
-ls -lah /home/ubuntu
+``` bash
+
+    touch /home/ubuntu/a.txt,
+    echo 'Hello from SSM command!' > /home/ubuntu/a.txt,
+    pwd,
+    ls -lah /home/ubuntu
+
 ```
 
 Add your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in the environment.
 
 ```bash
+
     export AWS_SECRET_ACCESS_KEY=**************
     export AWS_ACCESS_KEY_ID=******************
+
 ```
 
 ### Installing Requirements
